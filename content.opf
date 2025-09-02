@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xml:lang="pt-br" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier scheme="ISBN">ISBN</dc:identifier>
+    <dc:creator opf:role="aut" opf:file-as="PNLD, Autor">Autores</dc:creator>
+    <dc:title>Nomedaobra</dc:title>
+    <dc:publisher>Editora</dc:publisher>
+    <dc:subject>Disciplina</dc:subject>
+    <dc:format>Livro Digital</dc:format>
+    <dc:language>pt-BR</dc:language>
+    <dc:date event="creation">0000-00-00</dc:date>
+    <dc:description>Descrição da obra</dc:description>
+    <dc:rights>Copyright © editora, 0000</dc:rights>
+    <dc:identifier id="BookId" scheme="UUID"></dc:identifier>
+    <meta name="cover" content="cover.jpeg"/>
+			<x-metadata>
+				<EmbeddedCover>cover.jpeg</EmbeddedCover>
+			</x-metadata>
+    		<meta property="schema:accessibilitySummary" xml:lang="pt-br">Esta publicação está em conformidade com a especificação de acessibilidade em WCAG 2.0 Level AA</meta>
+    		<meta property="schema:accessMode">textual</meta>
+    		<meta property="schema:accessMode">visual</meta>
+    		<meta property="schema:accessModeSufficient">textual,visual</meta>
+    		<meta property="schema:accessModeSufficient">textual</meta>
+    		<meta property="schema:accessibilityFeature">MathML</meta>
+    		<meta property="schema:accessibilityFeature">describedMath</meta>
+    		<meta property="schema:accessibilityFeature">captions</meta>
+    		<meta property="schema:accessibilityFeature">alternativeText</meta>
+    		<meta property="schema:accessibilityFeature">longDescription</meta>
+    		<meta property="schema:accessibilityFeature">pageNavigation</meta>
+    		<meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    		<meta property="schema:accessibilityFeature">readingOrder</meta>
+    		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+    		<meta property="schema:accessibilityFeature">ttsMarkup</meta>
+    		<meta property="schema:accessibilityAPI">ARIA</meta>
+    		<meta property="schema:accessibilityHazard">noFlashingHazard</meta>
+    		<meta property="schema:accessibilityHazard">noSoundHazard</meta>
+    		<meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+  </metadata>
+  <manifest>
+    <!-- Navegação -->
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="cover" href="cover.jpeg" media-type="image/jpeg" properties="cover-image"/>
+		<item id="index" href="index.html" media-type="text/html" properties="nav" fallback="cover"/>
+    <item id="content_oed" href="content/info01pdtg27.html" media-type="text/html"/>
+
+    <!-- Imagens -->
+    <item id="carta-1.png" href="resources/imagens/carta-1.png" media-type="image/png"/>
+    <item id="carta-2.png" href="resources/imagens/carta-2.png" media-type="image/png"/>
+    <item id="carta-3.png" href="resources/imagens/carta-3.png" media-type="image/png"/>
+    <item id="carta-4.png" href="resources/imagens/carta-4.png" media-type="image/png"/>
+    <item id="carta-5.png" href="resources/imagens/carta-5.png" media-type="image/png"/>
+    <item id="carta-6.png" href="resources/imagens/carta-6.png" media-type="image/png"/>
+
+    <!-- CSS -->
+    <item id="colorfonts.css" href="resources/styles/colorfonts.css" media-type="text/css"/>
+    <item id="reset.css" href="resources/styles/reset.css" media-type="text/css"/>
+    <item id="info01pdtg27.css" href="resources/styles/info01pdtg27.css" media-type="text/css"/>
+    <item id="styles_oed.css" href="resources/styles/styles_oed.css" media-type="text/css"/>
+
+    <!-- FONTES -->
+    <item id="WorkSans-Bold.woff2" href="resources/fonts/WorkSans-Bold.woff2" media-type="font/woff2"/>
+    <item id="WorkSans-Bold.woff" href="resources/fonts/WorkSans-Bold.woff" media-type="font/woff"/>
+    <item id="WorkSans-Bold.otf" href="resources/fonts/WorkSans-Bold.otf" media-type="font/otf"/>
+    <item id="WorkSans-Bold.ttf" href="resources/fonts/WorkSans-Bold.ttf" media-type="application/x-font-ttf"/>
+
+    <item id="WorkSans-Bolditalic.woff2" href="resources/fonts/WorkSans-Bolditalic.woff2" media-type="font/woff2"/>
+    <item id="WorkSans-Bolditalic.woff" href="resources/fonts/WorkSans-Bolditalic.woff" media-type="font/woff"/>
+    <item id="WorkSans-Bolditalic.otf" href="resources/fonts/WorkSans-Bolditalic.otf" media-type="font/otf"/>
+    <item id="WorkSans-Bolditalic.ttf" href="resources/fonts/WorkSans-Bolditalic.ttf" media-type="application/x-font-ttf"/>
+
+    <item id="WorkSans-Regular.woff2" href="resources/fonts/WorkSans-Regular.woff2" media-type="font/woff2"/>
+    <item id="WorkSans-Regular.woff" href="resources/fonts/WorkSans-Regular.woff" media-type="font/woff"/>
+    <item id="WorkSans-Regular.otf" href="resources/fonts/WorkSans-Regular.otf" media-type="font/otf"/>
+    <item id="WorkSans-Regular.ttf" href="resources/fonts/WorkSans-Regular.ttf" media-type="application/x-font-ttf"/>
+
+    <item id="WorkSans-Italic.woff2" href="resources/fonts/WorkSans-Italic.woff2" media-type="font/woff2"/>
+    <item id="WorkSans-Italic.woff" href="resources/fonts/WorkSans-Italic.woff" media-type="font/woff"/>
+    <item id="WorkSans-Italic.otf" href="resources/fonts/WorkSans-Italic.otf" media-type="font/otf"/>
+    <item id="WorkSans-Italic.ttf" href="resources/fonts/WorkSans-Italic.ttf" media-type="application/x-font-ttf"/>
+  </manifest>
+
+  <spine toc="ncx">
+    <itemref idref="index" linear="yes"/>
+    <itemref idref="content_oed"/>
+  </spine>
+
+  <guide>
+   <reference href="index.html" type="toc" title="Início do livro"/>
+  </guide>
+</package>
