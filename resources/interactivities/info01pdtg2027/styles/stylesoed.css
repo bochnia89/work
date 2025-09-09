@@ -482,7 +482,7 @@ p.d3instrucaooed {
 .mapa .p4legenda {
   color: var(--preto);
   padding: 10px;
-  text-align: left;
+  text-align: right;
   grid-area: 2 / 1;
   font-size: var(--pesoIntermediario);
 }
