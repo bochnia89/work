@@ -400,7 +400,7 @@ p.d3instrucaooed {
     margin: 1em 0;
 }
 .d3btnvoltaroed a::before{
-    content: "↩ | ";
+    content: "↩  | ";
     font-weight: bold;
     font-family: var(--texto);
     font-size: 1em;
