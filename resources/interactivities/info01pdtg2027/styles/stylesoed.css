@@ -200,7 +200,7 @@ figure img {
 }
 
 .p4legenda {
-    
+    text-align: right;
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     padding: 0.5em 1em;
