@@ -540,6 +540,7 @@ p.d3instrucaooed {
   border-radius: 0 2em 2em 0;
   max-width: fit-content;
   margin-left: -2em;
+  margin-bottom: 0.5em;
 }
 
 .btn::before {
