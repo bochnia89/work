@@ -615,18 +615,23 @@ p.d3instrucaooed {
 }
 
 .marcador4 {
- top: 32%;
+       top: 32%;
   left: 62%;
+ 
 }
 
 .marcador5{
-  top: 57%;
-  left: 65%;
+     top: 30%;
+  left: 86%;
+ 
 }
 
 .marcador6 {
-  top: 30%;
-  left: 86%;
+ top: 57%;
+  left: 65%;
+
+  
+ 
 }
 
 
