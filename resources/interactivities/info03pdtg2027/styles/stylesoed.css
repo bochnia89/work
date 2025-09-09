@@ -405,7 +405,7 @@ p.d3instrucaooed {
     font-family: var(--texto);
     font-size: 1em;
     color: var(--roxo2);
-    padding-right: 0.1em;
+    padding-right: 0em;
 }
 .d3btnvoltaroed a {
    text-decoration: none;
