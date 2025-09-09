@@ -466,6 +466,7 @@ p.d3instrucaooed {
   text-align: left;
   grid-area: 2 / 1;
   font-size: var(--pesoIntermediario);
+  text-align: right;
 }
 
 .mapa-popup figure {
