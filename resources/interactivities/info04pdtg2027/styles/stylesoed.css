@@ -587,7 +587,7 @@ p.d3instrucaooed {
   font-size: 1em;
   color: var(--branco);
   background: var(--preto);
-  border: 1px solid var(--roxo2);
+  border: 2px solid var(--roxo2);
 
   transform: translate(-50%, -50%);
   pointer-events: auto;
